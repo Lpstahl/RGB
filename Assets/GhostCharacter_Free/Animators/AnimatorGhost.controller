@@ -36,7 +36,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: Speed
+    m_ConditionEvent: Velocidade
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5429178053142697781}
@@ -61,8 +61,14 @@ AnimatorController:
   m_Name: AnimatorGhost
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Speed
+  - m_Name: Velocidade
     m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: InputY
+    m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -89,7 +95,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: Speed
+    m_ConditionEvent: Velocidade
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6727374160578897640}
@@ -119,7 +125,7 @@ AnimatorStateMachine:
     m_Position: {x: 300, y: 100, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6727374160578897640}
-    m_Position: {x: 520, y: 100, z: 0}
+    m_Position: {x: 640, y: 100, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
