@@ -19,9 +19,9 @@ TagManager:
   - GroundLayer
   - Ground
   - Player
-  - 
-  - 
-  - 
+  - Platform
+  - RedLayer
+  - GreenLayer
   - 
   - 
   - 
